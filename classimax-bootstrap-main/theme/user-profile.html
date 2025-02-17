@@ -164,24 +164,42 @@
 			<div class="col-lg-8">
 				<!-- Edit Profile Welcome Text -->
 				<div class="widget welcome-message">
-					<h2>Edit profile</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+					<h2>회원정보 수정</h2>
 				</div>
 				<!-- Edit Personal Info -->
+				 <div class="row">
+					<div class="col">
+						<div class="widget personal-info">
+							<h3 class="widget-header user">랄라라</h3>
+							<form action="#" class="needs-validation" novalidate>
+								우잉
+
+							</form>
+
+						</div>
+					</div>
+
+				 </div>
 				<div class="row">
 					<div class="col-lg-6 col-md-6">
 						<div class="widget personal-info">
 							<h3 class="widget-header user">Edit Personal Information</h3>
-							<form action="#">
+							<form action="#" class="needs-validation" novalidate>
 								<!-- First Name -->
 								<div class="form-group">
 									<label for="first-name">First Name</label>
-									<input type="text" class="form-control" id="first-name">
+									<input type="text" class="form-control" id="first-name" required>
+									<div class="invalid-feedback">
+										
+									  </div>
 								</div>
 								<!-- Last Name -->
 								<div class="form-group">
 									<label for="last-name">Last Name</label>
-									<input type="text" class="form-control" id="last-name">
+									<input type="text" class="form-control" id="last-name" required>
+									<div class="invalid-feedback">
+										
+									</div>
 								</div>
 								<!-- File chooser -->
 								<div class="form-group choose-file d-inline-flex">
@@ -191,7 +209,10 @@
 								<!-- Comunity Name -->
 								<div class="form-group">
 									<label for="comunity-name">Comunity Name</label>
-									<input type="text" class="form-control" id="comunity-name">
+									<input type="text" class="form-control" id="comunity-name" required>
+									<div class="invalid-feedback">
+										
+									</div>
 								</div>
 								<!-- Checkbox -->
 								<div class="form-check">
@@ -203,7 +224,10 @@
 								<!-- Zip Code -->
 								<div class="form-group">
 									<label for="zip-code">Zip Code</label>
-									<input type="text" class="form-control" id="zip-code">
+									<input type="text" class="form-control" id="zip-code" required>
+									<div class="invalid-feedback">
+										
+									</div>
 								</div>
 								<!-- Submit button -->
 								<button class="btn btn-transparent">Save My Changes</button>
@@ -214,21 +238,30 @@
 						<!-- Change Password -->
 					<div class="widget change-password">
 						<h3 class="widget-header user">Edit Password</h3>
-						<form action="#">
+						<form action="#" class="needs-validation" novalidate>
 							<!-- Current Password -->
 							<div class="form-group">
 								<label for="current-password">Current Password</label>
-								<input type="password" class="form-control" id="current-password">
+								<input type="password" class="form-control" id="current-password" required>
+								<div class="invalid-feedback">
+										
+								</div>
 							</div>
 							<!-- New Password -->
 							<div class="form-group">
 								<label for="new-password">New Password</label>
-								<input type="password" class="form-control" id="new-password">
+								<input type="password" class="form-control" id="new-password" required>
+								<div class="invalid-feedback">
+										
+								</div>
 							</div>
 							<!-- Confirm New Password -->
 							<div class="form-group">
 								<label for="confirm-password">Confirm New Password</label>
-								<input type="password" class="form-control" id="confirm-password">
+								<input type="password" class="form-control" id="confirm-password" required>
+								<div class="invalid-feedback">
+										
+								</div>
 							</div>
 							<!-- Submit Button -->
 							<button class="btn btn-transparent">Change Password</button>
@@ -239,16 +272,22 @@
 						<!-- Change Email Address -->
 					<div class="widget change-email mb-0">
 						<h3 class="widget-header user">Edit Email Address</h3>
-						<form action="#">
+						<form action="#" class="needs-validation" novalidate>
 							<!-- Current Password -->
 							<div class="form-group">
 								<label for="current-email">Current Email</label>
-								<input type="email" class="form-control" id="current-email">
+								<input type="email" class="form-control" id="current-email" required>
+								<div class="invalid-feedback">
+										
+								</div>
 							</div>
 							<!-- New email -->
 							<div class="form-group">
 								<label for="new-email">New email</label>
-								<input type="email" class="form-control" id="new-email">
+								<input type="email" class="form-control" id="new-email" required>
+								<div class="invalid-feedback">
+										
+								</div>
 							</div>
 							<!-- Submit Button -->
 							<button class="btn btn-transparent">Change email</button>
