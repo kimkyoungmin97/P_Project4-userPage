@@ -142,6 +142,34 @@
           <form class="needs-validation" action="#" novalidate>
             <fieldset class="p-4">
               <div class="row">
+                <div class="col-lg-3">
+                  <div class="mb-2">
+                    <input class="form-control mb-3" type="text" placeholder="이름*" required>
+                    <div class="invalid-feedback">
+                      이름을 입력해주세요.
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="form-check d-inline-flex">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" required>
+                    <label class="form-check-label" for="inlineRadio1">남성</label>
+                  </div>
+                  <div class="form-check d-inline-flex">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option2" required>
+                    <label class="form-check-label" for="inlineRadio1">여성</label>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="mb-2">
+                    <input class="form-control mb-3" type="text" placeholder="생년월일 8자리*" required>
+                    <div class="invalid-feedback">
+                      생년월일을 입력해주세요.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
                 <div class="col-5">
                   <div class="mb-2">
                     <input class="form-control mb-3" type="text" placeholder="아이디*" required>
@@ -160,8 +188,6 @@
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="row">
                 <div class="col-5">
                   <div class="mb-2">
                     <input class="form-control mb-3" type="password" placeholder="비밀번호 확인*" required>
@@ -174,33 +200,14 @@
               <div class="row">
                 <div class="col-5">
                   <div class="mb-2">
-                    <input class="form-control mb-3" type="text" placeholder="이름*" required>
+                    <input class="form-control mb-3" type="text" placeholder="이메일*" required>
                     <div class="invalid-feedback">
-                      이름을 입력해주세요.
+                      이메일을 입력해주세요.
                     </div>
                   </div>
-                </div>
-                <div class="col">
-                  <div class="form-check d-inline-flex">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" required>
-                    <label class="form-check-label" for="inlineRadio1">남성</label>
-                  </div>
-                  <div class="form-check d-inline-flex">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option2" required>
-                    <label class="form-check-label" for="inlineRadio1">여성</label>
-                  </div>
-                  
                 </div>
               </div>
               <div class="row">
-                <div class="col-5">
-                  <div class="mb-2">
-                    <input class="form-control mb-3" type="text" placeholder="생년월일 8자리*" required>
-                    <div class="invalid-feedback">
-                      생년월일을 입력해주세요.
-                    </div>
-                  </div>
-                </div>
                 <div class="col-5">
                   <div class="mb-2">
                     <input class="form-control mb-3" type="text" placeholder="닉네임*" required>
@@ -235,7 +242,7 @@
                 <label for="registering" class="form-check-label"><a class="text-primary font-weight-bold" href="terms-condition.html">이용약관</a>에 동의합니다.</label>
                 <span class="invalid-feedback">이용약관을 읽어보시고 체크해주세요.</span>
               </div>
-              <button type="submit" class="btn btn-primary font-weight-bold mt-3">Register Now</button>
+              <button type="submit" class="btn btn-primary font-weight-bold mt-3">회원가입</button>
             </fieldset>
           </form>
         </div>
