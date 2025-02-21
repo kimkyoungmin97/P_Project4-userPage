@@ -606,8 +606,10 @@ ul.pagination .active a {
 }
 
 .bg-1 {
-  background: url("../images/home/hero.jpg");
-  background-size: cover;
+  
+  background: url("../images/igguanaFinal.jpg");
+  /* background-size: contain; */
+  height: 500px;
   background-repeat: no-repeat;
 }
 
@@ -839,7 +841,7 @@ ul.pagination .active a {
     padding-right: 25px;
   }
 }
-.hero-area .content-block h1,
+.h1,
 .hero-area-2 .content-block h1 {
   color: #fff;
   font-size: 65px;
@@ -850,26 +852,34 @@ ul.pagination .active a {
 @media (max-width: 768px) {
   .hero-area .content-block h1,
 .hero-area-2 .content-block h1 {
-    font-size: 40px;
+    font-size: 0px;
   }
 }
+
 .hero-area .content-block p,
 .hero-area-2 .content-block p {
   color: #fff;
   font-size: 20px;
+  margin-bottom: 0%;
+}
+.hero-area .content-block p::first-letter{
+  font-size: 50px;
+  font-weight: 900;
 }
 @media (max-width: 768px) {
   .hero-area .content-block p,
 .hero-area-2 .content-block p {
     font-size: 17px;
+    
   }
 }
 
 .hero-area {
-  padding: 100px 0 0;
+  padding: 50px 0 0;
 }
 .hero-area .content-block {
   padding-bottom: 80px;
+  margin-left: 40%;
 }
 .hero-area .advance-search {
   background: #fff;
@@ -1341,6 +1351,7 @@ ul.pagination .active a {
   font-weight: 600;
 }
 .product-item .card .card-body .card-text {
+  height: 40px;
   color: #777;
 }
 .product-item .thumb-content {
