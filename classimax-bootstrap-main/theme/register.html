@@ -144,12 +144,23 @@
               <div class="row">
                 <div class="col-lg-3">
                   <div class="mb-2">
-                    <input class="form-control mb-3" type="text" placeholder="이름*" required>
+                    <label><strong>이름</strong><span style="color: crimson;">*</span></label>
+                    <input class="form-control mb-3" type="text" placeholder="이름" required>
                     <div class="invalid-feedback">
                       이름을 입력해주세요.
                     </div>
                   </div>
                 </div>
+                <div class="col-lg-3">
+                  <div class="mb-2">
+                    <label><strong>생년월일</strong><span style="color: crimson;">*</span></label>
+                    <input class="form-control mb-3" type="text" placeholder="생년월일 8자리" required>
+                    <div class="invalid-feedback">
+                      생년월일을 입력해주세요.
+                    </div>
+                  </div>
+                </div>
+               
                 <div class="col-lg-3">
                   <div class="form-check d-inline-flex">
                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" required>
@@ -160,19 +171,32 @@
                     <label class="form-check-label" for="inlineRadio1">여성</label>
                   </div>
                 </div>
-                <div class="col-lg-3">
+                
+              </div>
+              <div class="row">
+                <div class="col-5">
                   <div class="mb-2">
-                    <input class="form-control mb-3" type="text" placeholder="생년월일 8자리*" required>
+                    <label><strong>전화번호</strong><span style="color: crimson;">*</span></label>
+                    <input class="form-control mb-3" type="text" placeholder="전화번호" required>
                     <div class="invalid-feedback">
-                      생년월일을 입력해주세요.
+                      전화번호를 입력해주세요.
                     </div>
                   </div>
+                </div>
+                <div class="col-2">
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>통신사</option>
+                    <option value="1">KT</option>
+                    <option value="2">SKT</option>
+                    <option value="3">LGT</option>
+                  </select>
                 </div>
               </div>
               <div class="row">
                 <div class="col-5">
                   <div class="mb-2">
-                    <input class="form-control mb-3" type="text" placeholder="아이디*" required>
+                    <label><strong>아이디</strong><span style="color: crimson;">*</span></label>
+                    <input class="form-control mb-3" type="text" placeholder="아이디" required>
                     <div class="invalid-feedback">
                       아이디를 입력해주세요.
                     </div>
@@ -182,7 +206,8 @@
               <div class="row">
                 <div class="col-5">
                   <div class="mb-2">
-                    <input class="form-control mb-3" type="password" placeholder="비밀번호*" required>
+                    <label><strong>비밀번호</strong><span style="color: crimson;">*</span></label>
+                    <input class="form-control mb-3" type="password" placeholder="비밀번호" required>
                     <div class="invalid-feedback">
                       비밀번호를 입력해주세요.
                     </div>
@@ -190,7 +215,8 @@
                 </div>
                 <div class="col-5">
                   <div class="mb-2">
-                    <input class="form-control mb-3" type="password" placeholder="비밀번호 확인*" required>
+                    <label><strong>비밀번호 확인</strong></label>
+                    <input class="form-control mb-3" type="password" placeholder="비밀번호 확인" required>
                     <div class="invalid-feedback">
                       비밀번호가 일치하지 않습니다.
                     </div>
@@ -200,7 +226,8 @@
               <div class="row">
                 <div class="col-5">
                   <div class="mb-2">
-                    <input class="form-control mb-3" type="text" placeholder="이메일*" required>
+                    <label><strong>이메일</strong><span style="color: crimson;">*</span></label>
+                    <input class="form-control mb-3" type="text" placeholder="이메일" required>
                     <div class="invalid-feedback">
                       이메일을 입력해주세요.
                     </div>
@@ -210,7 +237,28 @@
               <div class="row">
                 <div class="col-5">
                   <div class="mb-2">
-                    <input class="form-control mb-3" type="text" placeholder="닉네임*" required>
+                    <label><strong>주소</strong><span style="color: crimson;">*</span></label>
+                    <input class="form-control mb-3" type="text" placeholder="주소" required>
+                    <div class="invalid-feedback">
+                      주소를 입력해주세요.
+                    </div>
+                  </div>
+                </div>
+                <div class="col-5">
+                  <div class="mb-2">
+                    <label><strong>상세주소</strong></label>
+                    <input class="form-control mb-3" type="text" placeholder="상세주소" required>
+                    <div class="invalid-feedback">
+                      상세주소를 입력해주세요.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-5">
+                  <div class="mb-2">
+                    <label><strong>닉네임</strong><span style="color: crimson;">*</span></label>
+                    <input class="form-control mb-3" type="text" placeholder="닉네임" required>
                     <div class="invalid-feedback">
                       닉네임을 입력해주세요.
                     </div>
@@ -220,7 +268,8 @@
               <div class="row">
                 <div class="col-5">
                   <div class="mb-2">
-                    <input class="form-control mb-3" type="text" placeholder="차종*" required>
+                    <label><strong>차종</strong><span style="color: crimson;"></span></label>
+                    <input class="form-control mb-3" type="text" placeholder="차종" required>
                     <div class="invalid-feedback">
                       차종을 입력해주세요.
                     </div>
